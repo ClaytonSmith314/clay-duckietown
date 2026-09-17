@@ -1,0 +1,34 @@
+Path 1
+/vader/joy_mapper_node (http://vader.local:39947)
+/vader/joy_mapper_node/car_cmd (duckietown_msgs/Twist2DStamped)
+/vader/car_cmd_switch_node (https://vader.local:46555/)
+/vader/car_cmd_switch_node/cmd (duckietown_msgs/Twist2DStamped)
+/vader/kinematics_node (http://vader.local:33095/)
+/vader/wheels_driver_node/wheels_cmd (duckietown_msgs/WheelsCmdStamped)
+/vader/wheels_driver_node (http://vader.local:40641/)
+
+Path 2
+/vader/lane_controller_node (http://vader.local:33159/)
+/vader/lane_controller_node/car_cmd (duckietown_msgs/Twist2DStamped)
+/vader/car_cmd_switch_node (http://vader.local:46555/)
+/vader/car_cmd_switch_node/cmd (duckietown_msgs/Twist2DStamped)
+/vader/kinematics_node (http://vader.local:33095/)
+/vader/wheels_driver_node/wheels_cmd (duckietown_msgs/WheelsCmdStamped)
+/vader/wheels_driver_node (http://vader.local:40641/)
+
+Task 3
+Topics related to /vader/car_cmd_switch_node
+Publications: 
+ * /rosout [rosgraph_msgs/Log]
+ * /vader/car_cmd_switch_node/cmd [duckietown_msgs/Twist2DStamped]
+
+Subscriptions: 
+ * /vader/coordinator_node/car_cmd [duckietown_msgs/Twist2DStamped]
+ * /vader/fsm_node/mode [duckietown_msgs/FSMState]
+ * /vader/joy_mapper_node/car_cmd [duckietown_msgs/Twist2DStamped]
+ * /vader/lane_controller_node/car_cmd [duckietown_msgs/Twist2DStamped]
+ * /vader/simple_stop_controller_node/car_cmd [duckietown_msgs/Twist2DStamped]
+ * /vader/unicorn_intersection_node/car_cmd [duckietown_msgs/Twist2DStamped]
+
+
+
